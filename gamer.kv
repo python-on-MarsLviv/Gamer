@@ -1,0 +1,235 @@
+<DropDownList>:
+    Button:
+        text: 'Click-Click'
+        size_hint_y: None
+        height: 44
+        on_release: root.select('Click-Click')
+    Button:
+        text: 'Twins'
+        size_hint_y: None
+        height: 44
+        on_release: root.select('Twins')
+    Button:
+        text: 'Find number'
+        size_hint_y: None
+        height: 44
+        on_release: root.select('Find number')
+    Button:
+        text: 'Find object'
+        size_hint_y: None
+        height: 44
+        on_release: root.select('Find object')
+    Button:
+        text: 'Count colors'
+        size_hint_y: None
+        height: 44
+        on_release: root.select('Count colors')
+    Button:
+        text: 'Count color'
+        size_hint_y: None
+        height: 44
+        on_release: root.select('Count color')
+        #disabled: True
+    Label:
+        text: 'Twins only realized'
+        size_hint_y: None
+        height: 44
+
+<ChooseGame>:
+	#
+	
+
+<Setings>:
+    link_to_slider_label: slider_label
+    link_to_slider_delay: slider_delay
+    link_to_check_box: check_box
+
+    orientation: 'vertical'
+
+    BoxLayout:	# delay
+		padding: 10
+		spacing: 5
+		size_hint: 1, .33
+
+		Label:
+	        size: self.texture_size
+	        size_hint: None, None
+	        #size_hint: 1, 1
+	        pos_hint: {"x": 0,"center_y": .5}
+	        text: 'Time to compute: 0.0 s.'
+
+	BoxLayout:	# delay
+		padding: 10
+		spacing: 5
+		size_hint: 1, .33
+
+		Label:
+			font_size: '15sp'
+			text: 'Delay'
+			text_size: self.size
+			halign: 'left'
+			valign: 'center'
+			size_hint: .2, 1
+
+		Slider:
+			id: slider_delay
+			min: 0
+			max: 5
+			step: .1
+			value: 2.2
+			on_value: root.on_slider_delay(slider_delay.value)
+			size_hint: .6, 1
+
+		Label:
+			id: slider_label
+        	text: str(slider_delay.value) + ' seconds'
+        	size_hint: .2, 1
+
+	BoxLayout:								# Increase latency
+		padding: 10
+		size_hint: 1, .33
+
+		Label:
+			font_size: '15sp'
+			text: 'Increase latency'
+			text_size: self.size
+			halign: 'left'
+			valign: 'center'
+			size_hint_x: .7
+
+		CheckBox:
+			id: check_box
+			canvas.before:
+				Color:
+					rgb: 1,1,1
+				Rectangle:
+					pos:self.center_x-8, self.center_y-8
+					size:[16,16]
+				Color:
+					rgb: 0,0,0
+				Rectangle:
+					pos:self.center_x-6, self.center_y-6
+					size:[12,12]
+			on_active: root.on_checkbox(self.active) 
+			size_hint_x: .3
+			active: True
+
+<Chooser>:
+    link_to_chooser_button: chooser_button
+    link_to_setings: setings
+
+    orientation: 'horizontal'
+    padding: 10
+    spacing: 20
+    halign: 'center'
+	valign: 'center'
+	size_hint: 1, 1
+	pos_hint: {"center_x": .5,"center_y": .5}
+
+    BoxLayout:
+    	orientation: 'vertical'
+		padding: 25
+		spacing: 5
+		size_hint: .4, 1
+
+		Label:
+			text: 'CHOOSE GAME'
+			size_hint: 1, 1
+
+		ChooseGame:
+		    id: chooser_button
+		    	#padding: 10
+			    #halign: 'center'
+				#valign: 'center'
+			size_hint: .8, 1
+			pos_hint: {"center_x": .5,"center_y": .5}
+
+    Setings:
+        id: setings
+        size_hint: .4, 1
+
+	BoxLayout:
+		padding: 5
+		spacing: 10
+		size_hint: .2, 1
+
+		Image:
+			source: 'img/logo_python.jpeg'
+			size: self.texture_size
+
+<Area>:
+	link_to_btn_p1: btn_p1
+	link_to_btn_p2: btn_p2
+	link_to_image: image
+
+	orientation: 'horizontal'
+	padding: 5
+	spacing: 10
+
+	BoxLayout:
+		padding: 5
+		spacing: 10
+		orientation: 'vertical'
+		size_hint: .4, 1
+
+		Button:
+			id: btn_p1
+			font_size: '15sp'
+			text: 'Set target P1 at screen'
+			size_hint: .9, .1
+			on_release:	root.on_btn1_release(self.text)
+		
+		Button:
+			id: btn_p2
+			font_size: '15sp'
+			text: 'Set target P2 at screen'
+			size_hint: .9, .1
+			on_release:	root.on_btn2_release(self.text)
+
+	BoxLayout:
+		orientation: 'vertical'
+		size_hint: .6, 1
+
+		Label:
+			text: 'P1'
+			size_hint: 1, .1
+
+		Image:
+			id: image
+			source: 'img/logo_big.jpg'
+			size: self.texture_size
+
+		Label:
+			text: 'P2'
+			size_hint: 1, .1
+
+<Container>:
+    link_to_chooser: chooser
+    link_to_area1: area1
+    link_to_area2: area2
+    link_to_btn_start_stop: btn_start_stop
+
+    orientation: 'vertical'
+    padding: 10, 10
+    spacing: 10
+
+    Chooser:
+    	id: chooser
+        size_hint: 1, .2
+    
+	Area:
+		id: area1
+		size_hint: 1, .35
+
+	Area:
+		id: area2
+		size_hint: 1, .35
+	
+	Button:
+		id: btn_start_stop
+		font_size: '25sp'
+		text: 'Start'
+		pos_hint: {"center_x": .5,"center_y": .5}
+		size_hint: .4, .1
+		on_release:	root.on_start_stop(self.text)
+		disabled: True

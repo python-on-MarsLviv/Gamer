@@ -1,0 +1,14 @@
+{
+    "version": 0.1,
+    "user_name": "user",
+    "game": "Click-Click",
+    "delay": 0.6,
+    "increase_latancy": 1,
+    "keep_log_file_days": 3,
+    "path_to_log_file": "/media/poma/64DC8AE9DC8AB4B8/TI/Python/gamer/log/",
+    "HELP game": "Value in [Twins, Click-Click, Count color, Count colors, Find number, Find object]",
+    "HELP delay": "Value in [0:0.1:5]",
+    "HELP increase_latancy": "Value in [0 1]",
+    "HELP keep_log_file_days": "Value in [1 .. 365]",
+    "HELP path_to_log_file": "path to log file"
+}
