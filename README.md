@@ -1,5 +1,6 @@
 # Gamer
-* Application play game "Click-click" on the web-site wikium.ru
+* Application play game "Click-Click" on the web-site wikium.ru
+* https://youtu.be/fFdEUFhySUw
 
 ### Prerequisites
 * python 3
