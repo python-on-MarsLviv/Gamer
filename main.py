@@ -53,7 +53,7 @@ config = ConfigParams()
 import logging.config
 from logger import logger_config
 
-from helpers import get_window, mouse_click #, get_contours
+from helpers import get_window, mouse_click
 from click_click import ClickClick
 
 # change default folder name for logging and interval for keeping log files
@@ -89,6 +89,8 @@ class Chooser(BoxLayout):
 	
 class Setings(BoxLayout):
 	''' part of GUI; Layout for widget's settings; is part of Chooser Layout'''
+	# Settings with two t are reserved
+	# therefore class name with one t
 
 	link_to_slider_label = ObjectProperty(None)
 	link_to_check_box = ObjectProperty(None)

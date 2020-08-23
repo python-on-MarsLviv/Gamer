@@ -1,4 +1,4 @@
-__all__ = ['mouse_click', 'get_window', 'mouse_click']
+__all__ = ['mouse_click', 'get_window', 'get_contours']
 
 # get mouse click position 
 X, Y = None, None
