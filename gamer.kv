@@ -43,6 +43,7 @@
     link_to_slider_label: slider_label
     link_to_slider_delay: slider_delay
     link_to_check_box: check_box
+    link_to_label_time: label_time
 
     orientation: 'vertical'
 
@@ -52,11 +53,12 @@
 		size_hint: 1, .33
 
 		Label:
+			id: label_time
 	        size: self.texture_size
 	        size_hint: None, None
 	        #size_hint: 1, 1
 	        pos_hint: {"x": 0,"center_y": .5}
-	        text: 'Time to compute: 0.0 s.'
+	        text: 'Time to compute ocr: 0.0 s.'
 
 	BoxLayout:	# delay
 		padding: 10

@@ -40,7 +40,7 @@ from os import remove
 #from threading import Thread
 from pynput.mouse import Button as pynput_Button
 from pynput.mouse import Controller as pynput_Controller
-from time import sleep
+from time import sleep, perf_counter
 
 from multiprocessing import Process
 from multiprocessing import Queue as  multiprocessing_Queue
@@ -195,6 +195,7 @@ class Container(BoxLayout):
 	link_to_btn_start_stop = ObjectProperty()
 	link_to_area1 = ObjectProperty()
 	link_to_area2 = ObjectProperty()
+	link_to_label_time = ObjectProperty()
 
 	def __init__(self, **kwargs):
 		super(Container, self).__init__(**kwargs)
@@ -242,6 +243,10 @@ class Container(BoxLayout):
 		# event starts on Start button
 		self.event_to_finish_game = None
 
+		# compute time to make ocr
+		self.tic = 0
+		self.toc = 0
+
 	def callback_on_event(self, arg):
 		
 		# check game_process readiness
@@ -252,6 +257,12 @@ class Container(BoxLayout):
 				self.game_steps = self.game_info['click']
 				#print('switched to play, game_readiness:{}, click:{}'.\
 				#	format(self.game_readiness, self.game_steps))
+				
+				# compute and display time to make ocr
+				if self.game_readiness:
+					self.toc = perf_counter() 
+					self.link_to_chooser.link_to_setings.link_to_label_time.text = \
+						'Time to compute ocr: {:.3f} s.'.format(self.toc - self.tic)
 
 		# game switcher
 		# these games using only second area to play
@@ -291,6 +302,9 @@ class Container(BoxLayout):
 			if self.game_readiness and self.game_steps == 0:
 				self.game_readiness = False
 
+				# starting ocr again
+				self.tic = perf_counter()
+
 
 		else:		# using both areas
 			if self.link_to_area1.ready and self.link_to_area2.ready:
@@ -327,6 +341,8 @@ class Container(BoxLayout):
 
 		# switch name and purpose of the button
 		if self.link_to_btn_start_stop.text == 'Start':
+			self.tic = perf_counter()
+
 			self.link_to_btn_start_stop.text = 'Stop'
 			sleep(.3)					# need some time to change a text
 
