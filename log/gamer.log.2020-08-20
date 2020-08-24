@@ -1,0 +1,215 @@
+2020-08-17 19:12:32,001 [INFO|app_logger] [main:<module>:460] 	---	START APPLICATION	---
+2020-08-17 19:12:32,012 [INFO|app_logger] [main:build:435] Enter in to the build()
+2020-08-17 19:12:32,178 [INFO|app_logger] [main:build:447] Return from build()
+2020-08-17 19:13:57,538 [INFO|app_logger] [main:<module>:470] 	---	EXIT APPLICATION	---
+2020-08-17 20:43:54,330 [INFO|app_logger] [main:<module>:478] 	---	START APPLICATION	---
+2020-08-17 20:43:54,340 [INFO|app_logger] [main:build:453] Enter in to the build()
+2020-08-17 20:43:54,397 [INFO|app_logger] [main:build:465] Return from build()
+2020-08-17 20:45:52,018 [INFO|app_logger] [main:<module>:488] 	---	EXIT APPLICATION	---
+2020-08-17 20:55:23,343 [INFO|app_logger] [main:<module>:478] 	---	START APPLICATION	---
+2020-08-17 20:55:23,353 [INFO|app_logger] [main:build:453] Enter in to the build()
+2020-08-17 20:55:23,401 [INFO|app_logger] [main:build:465] Return from build()
+2020-08-17 20:56:58,631 [INFO|app_logger] [main:<module>:488] 	---	EXIT APPLICATION	---
+2020-08-18 07:55:23,907 [INFO|app_logger] [main:<module>:481] 	---	START APPLICATION	---
+2020-08-18 07:55:23,934 [INFO|app_logger] [main:build:456] Enter in to the build()
+2020-08-18 07:55:24,099 [INFO|app_logger] [main:build:468] Return from build()
+2020-08-18 07:57:51,422 [INFO|app_logger] [main:<module>:491] 	---	EXIT APPLICATION	---
+2020-08-18 08:09:13,337 [INFO|app_logger] [main:<module>:485] 	---	START APPLICATION	---
+2020-08-18 08:09:13,355 [INFO|app_logger] [main:build:460] Enter in to the build()
+2020-08-18 08:09:13,409 [INFO|app_logger] [main:build:472] Return from build()
+2020-08-18 08:10:48,947 [INFO|app_logger] [main:<module>:485] 	---	START APPLICATION	---
+2020-08-18 08:10:48,956 [INFO|app_logger] [main:build:460] Enter in to the build()
+2020-08-18 08:10:49,008 [INFO|app_logger] [main:build:472] Return from build()
+2020-08-18 08:13:30,570 [INFO|app_logger] [main:<module>:495] 	---	EXIT APPLICATION	---
+2020-08-18 08:23:35,913 [INFO|app_logger] [main:<module>:493] 	---	START APPLICATION	---
+2020-08-18 08:23:35,928 [INFO|app_logger] [main:build:468] Enter in to the build()
+2020-08-18 08:23:35,983 [INFO|app_logger] [main:build:480] Return from build()
+2020-08-18 08:26:04,799 [INFO|app_logger] [main:<module>:503] 	---	EXIT APPLICATION	---
+2020-08-18 09:10:38,168 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:10:38,177 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:10:38,225 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:19:27,608 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:19:27,616 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:19:27,666 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:21:56,140 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 09:22:00,008 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:22:00,016 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:22:00,064 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:22:51,012 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 09:25:13,237 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:25:13,246 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:25:13,296 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:26:47,735 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 09:26:52,654 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:26:52,663 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:26:52,716 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:27:57,818 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 09:28:13,494 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:28:13,503 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:28:13,565 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:30:58,916 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 09:30:58,928 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 09:30:58,981 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 09:31:44,432 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 11:26:00,429 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 11:26:00,454 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 11:26:00,566 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 11:26:36,913 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 11:26:36,922 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 11:26:36,974 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 11:31:50,482 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 11:31:50,492 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 11:31:50,539 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 11:37:24,122 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 11:37:24,132 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 11:37:24,189 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 11:38:39,192 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 11:58:54,106 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 11:58:54,118 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 11:58:54,187 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 12:00:08,502 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 12:05:22,036 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 12:05:22,046 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 12:05:22,095 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 12:06:15,689 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 12:13:14,326 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 12:13:14,339 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 12:13:14,388 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 12:14:32,642 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 12:15:49,696 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 12:15:49,711 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 12:15:49,765 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 12:17:03,463 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 12:17:54,045 [INFO|app_logger] [main:<module>:498] 	---	START APPLICATION	---
+2020-08-18 12:17:54,054 [INFO|app_logger] [main:build:473] Enter in to the build()
+2020-08-18 12:17:54,109 [INFO|app_logger] [main:build:485] Return from build()
+2020-08-18 12:19:20,286 [INFO|app_logger] [main:<module>:508] 	---	EXIT APPLICATION	---
+2020-08-18 12:28:00,033 [INFO|app_logger] [main:<module>:497] 	---	START APPLICATION	---
+2020-08-18 12:28:00,041 [INFO|app_logger] [main:build:472] Enter in to the build()
+2020-08-18 12:28:00,163 [INFO|app_logger] [main:build:484] Return from build()
+2020-08-18 12:29:12,234 [INFO|app_logger] [main:<module>:507] 	---	EXIT APPLICATION	---
+2020-08-18 13:37:44,274 [INFO|app_logger] [main:<module>:497] 	---	START APPLICATION	---
+2020-08-18 13:37:44,285 [INFO|app_logger] [main:build:472] Enter in to the build()
+2020-08-18 13:37:44,379 [INFO|app_logger] [main:build:484] Return from build()
+2020-08-18 13:38:16,442 [INFO|app_logger] [main:<module>:507] 	---	EXIT APPLICATION	---
+2020-08-18 13:38:25,030 [INFO|app_logger] [main:<module>:497] 	---	START APPLICATION	---
+2020-08-18 13:38:25,041 [INFO|app_logger] [main:build:472] Enter in to the build()
+2020-08-18 13:38:25,095 [INFO|app_logger] [main:build:484] Return from build()
+2020-08-18 13:39:19,782 [INFO|app_logger] [main:<module>:507] 	---	EXIT APPLICATION	---
+2020-08-18 13:39:41,261 [INFO|app_logger] [main:<module>:497] 	---	START APPLICATION	---
+2020-08-18 13:39:41,277 [INFO|app_logger] [main:build:472] Enter in to the build()
+2020-08-18 13:39:41,334 [INFO|app_logger] [main:build:484] Return from build()
+2020-08-18 13:42:07,763 [INFO|app_logger] [main:<module>:507] 	---	EXIT APPLICATION	---
+2020-08-18 13:42:11,025 [INFO|app_logger] [main:<module>:497] 	---	START APPLICATION	---
+2020-08-18 13:42:11,035 [INFO|app_logger] [main:build:472] Enter in to the build()
+2020-08-18 13:42:11,086 [INFO|app_logger] [main:build:484] Return from build()
+2020-08-18 13:42:29,051 [INFO|app_logger] [main:<module>:507] 	---	EXIT APPLICATION	---
+2020-08-18 13:45:39,820 [INFO|app_logger] [main:<module>:497] 	---	START APPLICATION	---
+2020-08-18 13:45:39,830 [INFO|app_logger] [main:build:472] Enter in to the build()
+2020-08-18 13:45:39,886 [INFO|app_logger] [main:build:484] Return from build()
+2020-08-18 13:57:23,320 [INFO|app_logger] [main:<module>:507] 	---	EXIT APPLICATION	---
+2020-08-18 19:19:37,349 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:19:37,386 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:19:37,528 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:20:00,737 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:20:27,527 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:20:27,535 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:20:27,592 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:20:51,879 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:21:34,756 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:21:34,773 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:21:34,822 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:21:48,535 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:21:52,024 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:21:52,034 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:21:52,088 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:21:57,092 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:23:01,430 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:23:01,439 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:23:01,488 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:23:14,955 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:26:11,233 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:26:11,243 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:26:11,299 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:26:43,699 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:26:46,375 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:26:46,383 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:26:46,439 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:26:52,505 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 19:27:43,141 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:27:43,150 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:27:43,199 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:29:16,793 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:29:16,803 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:29:16,858 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:31:47,832 [INFO|app_logger] [main:<module>:501] 	---	START APPLICATION	---
+2020-08-18 19:31:47,842 [INFO|app_logger] [main:build:476] Enter in to the build()
+2020-08-18 19:31:47,893 [INFO|app_logger] [main:build:488] Return from build()
+2020-08-18 19:33:18,517 [INFO|app_logger] [main:<module>:511] 	---	EXIT APPLICATION	---
+2020-08-18 20:17:57,401 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-18 20:17:57,412 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-18 20:17:57,530 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-18 20:19:28,795 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-18 20:42:58,746 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-18 20:42:58,761 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-18 20:42:58,816 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-18 20:45:57,707 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-18 20:47:04,260 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-18 20:47:04,272 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-18 20:47:04,333 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-18 20:50:28,490 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-18 20:51:03,630 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-18 20:51:03,646 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-18 20:51:03,701 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-18 21:05:19,741 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-18 22:01:20,099 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-18 22:01:20,111 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-18 22:01:20,201 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-18 22:01:35,928 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-18 22:02:03,272 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-18 22:02:03,287 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-18 22:02:03,337 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-18 22:02:20,758 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-19 09:47:20,090 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-19 09:47:20,112 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-19 09:47:20,264 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-19 09:48:37,908 [INFO|app_logger] [main:<module>:508] 	---	START APPLICATION	---
+2020-08-19 09:48:37,917 [INFO|app_logger] [main:build:483] Enter in to the build()
+2020-08-19 09:48:37,966 [INFO|app_logger] [main:build:495] Return from build()
+2020-08-19 09:49:51,919 [INFO|app_logger] [main:<module>:518] 	---	EXIT APPLICATION	---
+2020-08-19 11:50:46,040 [INFO|app_logger] [main:<module>:504] 	---	START APPLICATION	---
+2020-08-19 11:50:46,083 [INFO|app_logger] [main:build:479] Enter in to the build()
+2020-08-19 11:50:46,185 [INFO|app_logger] [main:build:491] Return from build()
+2020-08-19 11:50:58,829 [INFO|app_logger] [main:<module>:514] 	---	EXIT APPLICATION	---
+2020-08-19 11:51:10,495 [INFO|app_logger] [main:<module>:504] 	---	START APPLICATION	---
+2020-08-19 11:51:10,506 [INFO|app_logger] [main:build:479] Enter in to the build()
+2020-08-19 11:51:10,560 [INFO|app_logger] [main:build:491] Return from build()
+2020-08-19 11:57:10,947 [INFO|app_logger] [main:<module>:514] 	---	EXIT APPLICATION	---
+2020-08-19 13:04:30,959 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-19 13:04:30,968 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-19 13:04:31,027 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-19 13:04:37,742 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---
+2020-08-19 13:06:56,240 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-19 13:06:56,255 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-19 13:06:56,304 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-19 13:06:59,568 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---
+2020-08-19 17:59:37,058 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-19 17:59:37,068 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-19 17:59:37,215 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-19 18:02:28,382 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---
+2020-08-19 18:05:11,658 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-19 18:05:11,668 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-19 18:05:11,732 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-19 18:05:59,622 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---
+2020-08-19 18:13:00,015 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-19 18:13:00,025 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-19 18:13:00,100 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-19 18:21:18,026 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---
+2020-08-19 18:21:22,439 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-19 18:21:22,450 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-19 18:21:22,506 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-19 19:19:01,504 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---
+2020-08-20 11:41:36,920 [INFO|app_logger] [main:<module>:468] 	---	START APPLICATION	---
+2020-08-20 11:41:36,943 [INFO|app_logger] [main:build:450] Enter in to the build()
+2020-08-20 11:41:37,127 [INFO|app_logger] [main:build:455] Return from build()
+2020-08-20 11:42:55,818 [INFO|app_logger] [main:<module>:478] 	---	EXIT APPLICATION	---

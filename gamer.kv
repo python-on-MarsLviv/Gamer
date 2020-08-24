@@ -191,8 +191,11 @@
 		size_hint: .6, 1
 
 		Label:
-			text: 'P1'
+			text: 'top-left corner: P1'
 			size_hint: 1, .1
+			text_size: self.size
+			halign: 'left'
+			valign: 'center'
 
 		Image:
 			id: image
@@ -200,8 +203,11 @@
 			size: self.texture_size
 
 		Label:
-			text: 'P2'
+			text: 'bottom-right corner P2'
 			size_hint: 1, .1
+			text_size: self.size
+			halign: 'right'
+			valign: 'center'
 
 <Container>:
     link_to_chooser: chooser
