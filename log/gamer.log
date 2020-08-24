@@ -42,3 +42,64 @@
 2020-08-24 10:08:10,153 [INFO|app_logger] [main:build:468] Enter in to the build()
 2020-08-24 10:08:10,204 [INFO|app_logger] [main:build:473] Return from build()
 2020-08-24 10:09:20,489 [INFO|app_logger] [main:<module>:496] 	---	EXIT APPLICATION	---
+2020-08-24 11:59:51,228 [INFO|app_logger] [main:<module>:490] 	---	START APPLICATION	---
+2020-08-24 11:59:51,257 [INFO|app_logger] [main:build:471] Enter in to the build()
+2020-08-24 11:59:51,662 [INFO|app_logger] [main:build:476] Return from build()
+2020-08-24 12:02:02,131 [INFO|app_logger] [main:<module>:490] 	---	START APPLICATION	---
+2020-08-24 12:02:02,141 [INFO|app_logger] [main:build:471] Enter in to the build()
+2020-08-24 12:02:02,221 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.6 seconds
+2020-08-24 12:02:02,221 [INFO|app_logger] [main:build:476] Return from build()
+2020-08-24 12:02:05,674 [INFO|app_logger] [main:on_dropdown_select:131] on_dropdown_select:Twins
+2020-08-24 12:02:20,017 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.7 seconds
+2020-08-24 12:02:20,067 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.8 seconds
+2020-08-24 12:02:24,888 [INFO|app_logger] [main:on_stop:483] on_stop()
+2020-08-24 12:02:24,890 [INFO|app_logger] [main:<module>:500] 	---	EXIT APPLICATION	---
+2020-08-24 12:18:07,751 [INFO|app_logger] [main:<module>:494] 	---	START APPLICATION	---
+2020-08-24 12:18:07,766 [INFO|app_logger] [main:build:475] Enter in to the build()
+2020-08-24 12:18:07,849 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.8 seconds
+2020-08-24 12:18:07,850 [INFO|app_logger] [main:enable_disable_area:447] enable_disable_area:Twins
+2020-08-24 12:18:07,850 [INFO|app_logger] [main:build:480] Return from build()
+2020-08-24 12:18:44,970 [INFO|app_logger] [main:<module>:494] 	---	START APPLICATION	---
+2020-08-24 12:18:44,982 [INFO|app_logger] [main:build:475] Enter in to the build()
+2020-08-24 12:18:45,041 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.8 seconds
+2020-08-24 12:18:45,041 [INFO|app_logger] [main:enable_disable_area:447] enable_disable_area:Twins
+2020-08-24 12:18:45,042 [INFO|app_logger] [main:build:480] Return from build()
+2020-08-24 12:18:46,641 [INFO|app_logger] [main:enable_disable_area:447] enable_disable_area:Click-Click
+2020-08-24 12:18:46,642 [INFO|app_logger] [main:on_dropdown_select:131] on_dropdown_select:Click-Click
+2020-08-24 12:20:18,559 [INFO|app_logger] [main:on_stop:487] on_stop()
+2020-08-24 12:20:18,563 [INFO|app_logger] [main:<module>:504] 	---	EXIT APPLICATION	---
+2020-08-24 12:29:25,854 [INFO|app_logger] [main:<module>:494] 	---	START APPLICATION	---
+2020-08-24 12:29:25,874 [INFO|app_logger] [main:build:475] Enter in to the build()
+2020-08-24 12:29:25,940 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.8 seconds
+2020-08-24 12:29:25,941 [INFO|app_logger] [main:enable_disable_area:447] enable_disable_area:Click-Click
+2020-08-24 12:29:25,941 [INFO|app_logger] [main:build:480] Return from build()
+2020-08-24 12:29:51,964 [INFO|app_logger] [main:on_stop:487] on_stop()
+2020-08-24 12:29:51,965 [INFO|app_logger] [main:<module>:504] 	---	EXIT APPLICATION	---
+2020-08-24 12:31:39,899 [INFO|app_logger] [main:<module>:494] 	---	START APPLICATION	---
+2020-08-24 12:31:39,912 [INFO|app_logger] [main:build:475] Enter in to the build()
+2020-08-24 12:31:39,967 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.8 seconds
+2020-08-24 12:31:39,967 [INFO|app_logger] [main:enable_disable_area:447] enable_disable_area:Click-Click
+2020-08-24 12:31:39,967 [INFO|app_logger] [main:build:480] Return from build()
+2020-08-24 12:32:07,278 [INFO|app_logger] [main:on_stop:487] on_stop()
+2020-08-24 12:32:07,279 [INFO|app_logger] [main:<module>:504] 	---	EXIT APPLICATION	---
+2020-08-24 12:32:58,382 [INFO|app_logger] [main:<module>:494] 	---	START APPLICATION	---
+2020-08-24 12:32:58,396 [INFO|app_logger] [main:build:475] Enter in to the build()
+2020-08-24 12:32:58,455 [INFO|app_logger] [main:on_slider_delay:107] on_slider_delay value:0.8 seconds
+2020-08-24 12:32:58,455 [INFO|app_logger] [main:enable_disable_area:447] enable_disable_area:Click-Click
+2020-08-24 12:32:58,455 [INFO|app_logger] [main:build:480] Return from build()
+2020-08-24 12:34:33,106 [INFO|app_logger] [main:on_stop:487] on_stop()
+2020-08-24 12:34:33,108 [INFO|app_logger] [main:<module>:504] 	---	EXIT APPLICATION	---
+2020-08-24 12:38:50,343 [INFO|app_logger] [main:<module>:481] 	---	START APPLICATION	---
+2020-08-24 12:38:50,353 [INFO|app_logger] [main:build:462] Enter in to the build()
+2020-08-24 12:38:50,410 [INFO|app_logger] [main:on_slider_delay:94] on_slider_delay value:0.8 seconds
+2020-08-24 12:38:50,411 [INFO|app_logger] [main:enable_disable_area:434] enable_disable_area:Click-Click
+2020-08-24 12:38:50,411 [INFO|app_logger] [main:build:467] Return from build()
+2020-08-24 12:40:21,869 [INFO|app_logger] [main:on_stop:474] on_stop()
+2020-08-24 12:40:21,871 [INFO|app_logger] [main:<module>:491] 	---	EXIT APPLICATION	---
+2020-08-24 12:43:35,620 [INFO|app_logger] [main:<module>:481] 	---	START APPLICATION	---
+2020-08-24 12:43:35,630 [INFO|app_logger] [main:build:462] Enter in to the build()
+2020-08-24 12:43:35,691 [INFO|app_logger] [main:on_slider_delay:94] on_slider_delay value:0.8 seconds
+2020-08-24 12:43:35,692 [INFO|app_logger] [main:enable_disable_area:434] enable_disable_area:Click-Click
+2020-08-24 12:43:35,692 [INFO|app_logger] [main:build:467] Return from build()
+2020-08-24 12:44:26,443 [INFO|app_logger] [main:on_stop:474] on_stop()
+2020-08-24 12:44:26,444 [INFO|app_logger] [main:<module>:491] 	---	EXIT APPLICATION	---

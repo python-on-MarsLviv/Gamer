@@ -9,35 +9,22 @@ Config.set('kivy','window_icon','img/logo_small.png')
 
 from kivy.app import App
 from kivy.clock import Clock
-#from kivy.uix.label import Label
-#from kivy.core.window import Window
 from kivy.uix.button import Button
 from kivy.uix.dropdown import DropDown
-#from kivy.graphics.texture import Texture
 from kivy.core.image import Image
 
 
 from kivy.properties import ObjectProperty
-
-#from kivy.uix.gridlayout import GridLayout
 from kivy.uix.boxlayout import BoxLayout
 
 from kivy.logger import Logger
 
-#import re
 import cv2
-#import json
-#import pprint
 from io import BytesIO
-#from time import time, perf_counter
-#from datetime import datetime
-#from numpy import array
-#from queue import Queue
 from os.path import join
 from os.path import exists
 from os import remove
-#from os import getpid
-#from threading import Thread
+
 from pynput.mouse import Button as pynput_Button
 from pynput.mouse import Controller as pynput_Controller
 from time import sleep, perf_counter
@@ -72,7 +59,7 @@ if exists(default_log_file):
 logging.config.dictConfig(logger_config)
 logger = logging.getLogger('app_logger')
 debugger = logging.getLogger('app_debugger')
-
+#debugger.disabled = True
 
 class DropDownList(DropDown):
 	''' part of GUI; for details watch UML diagram '''
@@ -104,10 +91,11 @@ class Setings(BoxLayout):
 		string = str('{:.1f}').format(value) + ' seconds'
 		self.link_to_slider_label.text = string
 		self.slider_delay = value
+		logger.info('on_slider_delay value:' + string)
 		#print('on_slider_delay value:', string)
 
 	def on_checkbox(self, active):
-		pass
+		logger.info('on_checkbox value:' + active)
 		#print('on_checkbox value:', active)
 
 class ChooseGame(BoxLayout):
@@ -126,6 +114,8 @@ class ChooseGame(BoxLayout):
 		# first parent - BoxLayout, second parent - Chooser, third parent - Container
 		# reach the Container
 		self.parent.parent.parent.enable_disable_area(text)
+
+		logger.info('on_dropdown_select:' + text)
 
 class Area(BoxLayout):
 	''' part of GUI;  Layout for area choose '''
@@ -255,6 +245,9 @@ class Container(BoxLayout):
 				self.game_info = self.queue_output.get()
 				self.game_readiness = self.game_info['ready']
 				self.game_steps = self.game_info['click']
+				text = 'switched to play, game_readiness:{}, click:{}'.\
+					format(self.game_readiness, self.game_steps)
+				debugger.info(text)
 				#print('switched to play, game_readiness:{}, click:{}'.\
 				#	format(self.game_readiness, self.game_steps))
 				
@@ -410,7 +403,7 @@ class Container(BoxLayout):
 
 			# in case process is alive it cleans itself
 			if self.process_play_game.is_alive():
-				self.queue_input.put({'terminate': True})
+				self.queue_input.put({'click': 0, 'terminate': True})
 			# othervise main process cleans queues
 			else:
 				self.clean_queues([self.queue_input, self.queue_output])
@@ -438,8 +431,9 @@ class Container(BoxLayout):
 		''' according to chosen game (text) enable or disable buttons at area1 area2 '''
 		#print('Container: enable_disable_area:', text)
 		self.game = text
+		logger.info('enable_disable_area:' + self.game)
 		if self.game in ['Click-Click', 'Twins']:
-			print('enable_disable_area: Click-Click')
+			#print('enable_disable_area: Click-Click')
 			self.link_to_area1.set_text_P1('')
 			self.link_to_area1.set_text_P2('')
 			self.link_to_area1.link_to_btn_p1.disabled = True
@@ -447,7 +441,7 @@ class Container(BoxLayout):
 			self.link_to_area2.set_text_P1('Set area\'s P1 at screen')
 			self.link_to_area2.set_text_P2('Set area\'s P2 at screen')
 		elif self.game == 'Find number':
-			print('enable_disable_area: Find number')
+			#print('enable_disable_area: Find number')
 			self.link_to_area1.set_text_P1('Set terget\'s P1 at screen')
 			self.link_to_area1.set_text_P2('Set terget\'s P2 at screen')
 			self.link_to_area1.link_to_btn_p1.disabled = False
@@ -455,7 +449,7 @@ class Container(BoxLayout):
 			self.link_to_area2.set_text_P1('Set area\'s P1 at screen')
 			self.link_to_area2.set_text_P2('Set area\'s P2 at screen')
 		elif self.game == 'Find object':
-			print('enable_disable_area: Find object')
+			#print('enable_disable_area: Find object')
 			self.link_to_area1.set_text_P1('Set terget\'s P1 at screen')
 			self.link_to_area1.set_text_P2('Set terget\'s P2 at screen')
 			self.link_to_area1.link_to_btn_p1.disabled = False
@@ -477,6 +471,7 @@ class GamerApp(App):
 		config.data[0]['game'] = self.container.link_to_chooser.link_to_chooser_button.mainbutton.text
 		config.data[0]['delay'] = float(self.container.link_to_chooser.link_to_setings.link_to_slider_label.text[0:3])
 		config.data[0]['increase_latancy'] = int(self.container.link_to_chooser.link_to_setings.link_to_check_box.active)
+		logger.info('on_stop()')
 		#print('on_stop')
 		return True
 

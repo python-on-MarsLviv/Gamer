@@ -2,7 +2,7 @@
     "version": 0.1,
     "user_name": "user",
     "game": "Click-Click",
-    "delay": 0.6,
+    "delay": 0.8,
     "increase_latancy": 1,
     "keep_log_file_days": 3,
     "path_to_log_file": "/media/poma/64DC8AE9DC8AB4B8/TI/Python/gamer/log/",

@@ -2,6 +2,14 @@ from pynput.mouse import Button as pynput_Button
 from pynput.mouse import Controller as pynput_Controller
 from time import sleep
 
+import logging.config
+from logger import logger_config
+
+# creating debugger with custom settings
+logging.config.dictConfig(logger_config)
+debugger = logging.getLogger('app_debugger')
+#debugger.disabled = True
+
 # custom modules
 from helpers import get_window, get_contours, mouse_click
 
@@ -54,6 +62,10 @@ class ClickClick():
 		n_click = 0
 
 		self.mouse = pynput_Controller()
+
+		text = 'play_game sent msg to main loop, ready:{}, click_number{}'\
+			.format(self.ready, self.click_number)
+		debugger.info(text)
 		#print('sent msg to main loop, ready:{}, click_number{}'\
 		#	.format(self.ready, self.click_number))
 
@@ -65,7 +77,9 @@ class ClickClick():
 			
 			if self.queue_input.qsize():
 				input_info = self.queue_input.get()
-				print('game process got info:', input_info)
+				debugger.info('game process got info:' + ' ' + str(input_info['click']) \
+					+ ' ' + str(input_info['terminate']))
+				#print('game process got info:', input_info)
 				# handle situation to exit from while loop
 				if input_info['terminate']:
 					n = self.queue_input.qsize()
